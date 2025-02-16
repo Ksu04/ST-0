@@ -5,8 +5,8 @@ int gcd(int a, int b) {
     if (a > b) {
       a = a - b;
     } else {
-      b = b - a;
+        b = b - a;
+      }
     }
+    return a;
   }
-  return a;
-}
